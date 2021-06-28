@@ -1,0 +1,25 @@
+.nav-categorias{
+    width: 18%;
+    border: 1px solid greenyellow;
+    
+}
+.list-categorias{
+    border: blue 1px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-categorias-li-titulo{
+    font-weight: bold;
+    list-style:none;
+    margin-bottom: 20px;
+    color: rgb(39, 39, 39);
+
+}
+.list-categorias-li{
+    list-style:none;
+    margin-bottom: 10px;
+    color: rgb(39, 39, 39);
+
+
+}

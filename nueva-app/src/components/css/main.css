@@ -1,0 +1,7 @@
+.main{
+    width: 82%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
