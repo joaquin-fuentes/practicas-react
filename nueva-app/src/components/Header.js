@@ -8,6 +8,7 @@ function Header() {
                 <nav className="nav-header">
                     <ul className="nav-list">
                         <li className="nav-list-li-titulo">Inicio</li>
+                        <li className="nav-list-li">Crear Producto</li>
                         <li className="nav-list-li">Sobre nosotros</li>
                         <li className="nav-list-li">Contacto</li>
                         <li className="nav-list-li">Carrito</li>

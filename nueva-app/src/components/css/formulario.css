@@ -41,9 +41,9 @@
     height: 50px;
 }
 
-  #src-file::before {
+  /* #src-file::before {
     content: 'Seleccionar Archivo';
-  }
+  } */
 
 ::placeholder{
     color: white;

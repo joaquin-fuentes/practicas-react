@@ -5,7 +5,7 @@
     display: flex;
     flex-direction:column ;
     align-items: center;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px 2px  grey;
 }
 .imagen-producto{
     width: 70%;
@@ -13,9 +13,11 @@
 }
 .nombre-producto{
     color: rgb(39, 39, 39);
+    margin-bottom: 2px;
 
 }
-.precio-proucto{
+.precio-producto{
     color: rgb(39, 39, 39);
+    margin: 0;
 
 }

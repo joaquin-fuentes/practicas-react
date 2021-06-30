@@ -2,13 +2,22 @@ import React, {Component} from "react"
 import "./css/formulario.css"
 
 class Formulario extends Component  {
-    handleChange= (e) => {
-        console.log({
-            name: e.target.name,
-            value:e.target.value})
-    }
+    // state = {}
+    // handleChange= (e) => {
+    //     // console.log({
+    //     //     name: e.target.name,
+    //     //     value:e.target.value})
+    //     this.setState({
+    //         [e.target.name]: e.target.value
+    //     })
+    // }
     handleClick= (e) => {
         console.log("El botón fue presionado")
+    }
+    handleSubmit= (e) => {
+      e.preventDefault()
+      console.log("El formulario no se subío")
+      console.log(this.state)
     }
 
 
@@ -17,17 +26,35 @@ class Formulario extends Component  {
     <div className="section-creacion-producto">
         <div className="contenedor-formulario">
             <h2>Crear producto</h2>
-            <form className="form-crear-producto" action="">
-                <input onChange={this.handleChange} className="input" type="file" id="src-file" name="src-file" placeholder="imagen" required />
-                <input onChange={this.handleChange} className="input" type="text" name="nombre" placeholder="Nombre del producto" required/>
-                <input onChange={this.handleChange} className="input" type="number" name="precio" placeholder="Precio" required/>
-                <select  onChange={this.handleChange} className="input" name="categoria" id="categoria" required>
-                    <option className="option" disabled selected value="">Categoría</option>
-                    <option className="option"  value="Exterior">Exterior</option>
-                    <option className="option"  value="Correr">Correr</option>
-                    <option className="option"  value="Gym">Gym</option>
-                    <option className="option"  value="Tenis">Tenis</option>
-                </select>
+            <form onSubmit={this.handleSubmit} className="form-crear-producto" action="">
+                <input onChange={this.props.onChange} 
+                 className="input" 
+                 type="file" 
+                 id="src-file" 
+                 name="imagen" 
+                 placeholder="imagen" 
+                 value={this.props.valoresForm.imagen} />
+
+                <input onChange={this.props.onChange} 
+                className="input" 
+                type="text" 
+                name="nombre" 
+                placeholder="Nombre del producto" 
+                value={this.props.valoresForm.nombre} required/>
+                <input onChange={this.props.onChange} 
+                className="input" 
+                type="number" 
+                name="precio" 
+                placeholder="Precio" 
+                value={this.props.valoresForm.precio} required/>
+                <input  onChange={this.props.onChange} 
+                className="input" 
+                type="text"
+                name="categoria" 
+                placeholder="Categoría" 
+                id="categoria" 
+                value={this.props.valoresForm.categoria} required>
+                </input>
                 <button onClick={this.handleClick} className="button">Crear</button>
             </form>
 
