@@ -1,12 +1,10 @@
 import React,{Component} from 'react';
-import './App.css';
-import Header from "./components/Header" 
-import Titulo from "./components/Titulo" 
-import Categorias from "./components/Categorias"  
-import ProductoList from "./components/ProductoList"
-import Footer from "./components/Footer" 
-import "./components/css/producto.css"
-import "./components/css/main.css"
+import './css/home.css';
+import Titulo from "../components/Titulo" 
+import Categorias from "../components/Categorias"  
+import ProductoList from "../components/ProductoList"
+import "../components/css/producto.css"
+import "../components/css/main.css"
 
 
 class App extends Component {
@@ -46,13 +44,11 @@ class App extends Component {
   render(){
     return (
     <div className="app">
-      <Header/>
       <Titulo/>
       <div className="categorias-main">
           <Categorias/>
           <ProductoList productos={this.state.data}/>
       </div>
-      <Footer/>
       
     </div>
   );

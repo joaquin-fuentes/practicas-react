@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import Formulario from "../components/Formulario"
 import Producto from "../components/Producto"
 
+
+
 class NuevoProducto extends Component {
     state = {
         form:{
@@ -20,16 +22,18 @@ class NuevoProducto extends Component {
     };
     render(){
         return (
-            <div>
-                <Formulario onChange={this.handleChange} valoresForm={this.state.form}/>
-                <div>
-                <Producto 
-                nombre= {this.state.form.nombre}
-                precio= {this.state.form.precio}
-                imagen="https://d1di2lzuh97fh2.cloudfront.net/files/0b/0bf/450/0bfan9.png?ph=37e3c938fc"/>
+            <React.Fragment>
+                <div className="main-formulario-creacion">
+                    <Formulario onChange={this.handleChange} valoresForm={this.state.form}/>
+                    <div>
+                        <Producto 
+                        nombre= {this.state.form.nombre}
+                        precio= {this.state.form.precio}
+                        imagen="https://d1di2lzuh97fh2.cloudfront.net/files/0b/0bf/450/0bfan9.png?ph=37e3c938fc"/>
+                    </div>
                 </div>
            
-            </div>
+            </React.Fragment>
            
         )
     }

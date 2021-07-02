@@ -1,3 +1,7 @@
+.main-formulario-creacion{
+    display: flex;
+    justify-content: space-around;
+}
 .section-creacion-producto{
     background: linear-gradient(#21C08B, #AB88FF);
     display: flex;
