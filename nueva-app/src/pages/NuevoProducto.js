@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Formulario from "../components/Formulario"
 import Producto from "../components/Producto"
+import "./css/nuevoProducto.css"
 
 
 
@@ -25,7 +26,7 @@ class NuevoProducto extends Component {
             <React.Fragment>
                 <div className="main-formulario-creacion">
                     <Formulario onChange={this.handleChange} valoresForm={this.state.form}/>
-                    <div>
+                    <div className="contenedor-producto">
                         <Producto 
                         nombre= {this.state.form.nombre}
                         precio= {this.state.form.precio}

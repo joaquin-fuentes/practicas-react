@@ -22,10 +22,10 @@ class App extends Component {
       this.setState({
         data: [
           {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/2h/2hi/450/2hi4ls.png?ph=37e3c938fc",
-            nombre: "Zapatilla Blanca",
-            precio: 200,
-            categoria: "exterior",
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:1
           },
           {
@@ -36,23 +36,24 @@ class App extends Component {
             id:2
           },
           {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/3s/3sd/450/3sdptz.png?ph=37e3c938fc",
-            nombre: "Zapatilla Azul",
-            precio: 240 ,
-            categoria: "gym",
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:3
           },
           {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/0b/0bf/450/0bfan9.png?ph=37e3c938fc",
-            nombre: "Zapatilla violeta",
-            precio: 280 ,
-            categoria: "correr",
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:4
-          },  {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/2h/2hi/450/2hi4ls.png?ph=37e3c938fc",
-            nombre: "Zapatilla Blanca",
-            precio: 200,
-            categoria: "exterior",
+          },
+          {
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:5
           },
           {
@@ -63,20 +64,20 @@ class App extends Component {
             id:6
           },
           {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/3s/3sd/450/3sdptz.png?ph=37e3c938fc",
-            nombre: "Zapatilla Azul",
-            precio: 240 ,
-            categoria: "gym",
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:7
           },
           {
-            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/0b/0bf/450/0bfan9.png?ph=37e3c938fc",
-            nombre: "Zapatilla violeta",
-            precio: 280 ,
-            categoria: "correr",
+            imagen: "https://d1di2lzuh97fh2.cloudfront.net/files/37/372/450/372mig.png?ph=37e3c938fc",
+            nombre: "Zapatilla Rosa",
+            precio: 300 ,
+            categoria: "tenis",
             id:8
           },
-          
+         
         ]
       })
     },200)

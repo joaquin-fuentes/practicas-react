@@ -1,0 +1,33 @@
+.section-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo-carrito{
+    font-size: 45px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: bold;
+}
+h4{
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+}
+.contenedor-boton{
+    height: 70px;
+    width: 300px;
+    background-color: gray;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

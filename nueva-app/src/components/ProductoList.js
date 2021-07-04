@@ -17,7 +17,7 @@ class ProductoList extends Component {
                         })}
                         
                     </main>
-                    <h6>Siguiente </h6>
+                    <h6 className="siguiente">Siguiente </h6>
                </div>
         )
     }

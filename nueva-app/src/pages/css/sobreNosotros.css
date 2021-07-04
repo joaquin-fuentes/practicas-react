@@ -1,0 +1,25 @@
+.section-sobre-nosotros{
+    display: flex;
+}
+.contenedor-imagen{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-imagen img{
+    width: 90%;
+    height: 90%;
+}
+.contenedor-sobre-nosotros{
+    width: 50%;   
+    padding: 10px;
+}
+.contenedor-sobre-nosotros h2{
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+.contenedor-sobre-nosotros p{
+    font-size: 20px;
+}

@@ -17,7 +17,15 @@
 .list-categorias-li{
     list-style:none;
     margin-bottom: 10px;
-    color: rgb(39, 39, 39);
-
-
+    color: rgb(39, 39, 39)
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.siguiente{
+    font-size: 20px;
 }

@@ -1,0 +1,28 @@
+.section-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-contacto{
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: bold;
+
+}
+.parrafo-contacto{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    margin: 2px;
+    font-size: 20px;
+
+}
+.subtitulo-contacto{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px;
+
+}
